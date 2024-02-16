@@ -4,13 +4,14 @@
   
   x<- matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol=3)
   x
-  
+  dim(x)
 }
 
 {
   
-  x<-matrix(c(1,2,3,4,5,6),nrow=3,ncol=3,byrow=TRUE)
+  x<-matrix(c(1,2,3,4,5,6),nrow=3,ncol=2,byrow=TRUE)
   x
+  dim(x)
   
 }
 -----------------------------------------------------------
